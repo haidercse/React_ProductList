@@ -1,0 +1,94 @@
+[
+    {
+      "id": 1,
+      "title": "Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "price": 59.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 2,
+      "title": "Smartphone",
+      "description": "Latest model with high-speed performance and long battery life.",
+      "price": 699.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "image": "https://placehold.co/150x150"
+    }
+  ]
+  
