@@ -5,6 +5,7 @@ import Product from './components/products'
 import Header from './components/products/Header'
 import Footer from './components/products/Footer'
 import STATE from './STATE'
+import ConditionalRendering from './components/ConditionalRendering/index'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Product products={ProductsData} />
         <STATE />
+        < ConditionalRendering />
         <Footer />
     </div>
     </>
