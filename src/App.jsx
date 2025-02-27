@@ -8,6 +8,8 @@ import STATE from "./STATE";
 import ConditionalRendering from "./components/ConditionalRendering/index";
 import EventHandelling from "./components/Eventhandelling/index";
 import EventHandellingByFunction from "./components/Eventhandelling/eventHandellingbyFunction";
+import EventBinding from "./components/EventBinding";
+import Hook from "./components/Hook";
 function App() {
   return (
     <>
@@ -17,7 +19,10 @@ function App() {
         <STATE />
         <ConditionalRendering />
         <EventHandellingByFunction />
-        {/* < EventHandelling  /> */}
+        < EventHandelling  />
+        < EventBinding  />
+        < Hook  />
+        
         <Footer />
       </div>
     </>
