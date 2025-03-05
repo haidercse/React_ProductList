@@ -10,6 +10,8 @@ import EventHandelling from "./components/Eventhandelling/index";
 import EventHandellingByFunction from "./components/Eventhandelling/eventHandellingbyFunction";
 import EventBinding from "./components/EventBinding";
 import Hook from "./components/Hook";
+import Form from "./components/Form";
+import FormHandelling from "./components/FormHandelling/form";
 function App() {
   return (
     <>
@@ -22,6 +24,8 @@ function App() {
         < EventHandelling  />
         < EventBinding  />
         < Hook  />
+        < Form />
+        < FormHandelling />
         
         <Footer />
       </div>
