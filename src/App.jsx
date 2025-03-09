@@ -12,7 +12,14 @@ import EventBinding from "./components/EventBinding";
 import Hook from "./components/Hook";
 import Form from "./components/Form";
 import FormHandelling from "./components/FormHandelling/form";
+import Child from "./components/Child/child";
+import Home from "./components/TODO/Home";
+
+
 function App() {
+  const handleChildData = (childData) => {
+    console.log(childData);
+  };
   return (
     <>
       <div>
@@ -21,12 +28,16 @@ function App() {
         <STATE />
         <ConditionalRendering />
         <EventHandellingByFunction />
-        < EventHandelling  />
-        < EventBinding  />
-        < Hook  />
-        < Form />
-        < FormHandelling />
-        
+        <EventHandelling />
+        <EventBinding />
+        <Hook />
+        <Form />
+        <FormHandelling />
+        <Child
+          data={"hello sent message from Parent(App)"}
+          onHandleChildData={handleChildData}
+        />
+        < Home /> 
         <Footer />
       </div>
     </>
