@@ -1,0 +1,31 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 105, 105);
+    padding: 1rem;
+}
+.faqs{
+    width: 50rem;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 0.6rem;
+    padding: 1rem;
+
+}
+.faq{
+    margin: 1rem;
+    background-color: rgb(113, 105, 105);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem rgb(50, 48, 48);
+}
+.faq div{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+}

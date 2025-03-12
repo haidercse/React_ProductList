@@ -14,6 +14,7 @@ import Form from "./components/Form";
 import FormHandelling from "./components/FormHandelling/form";
 import Child from "./components/Child/child";
 import Home from "./components/TODO/Home";
+import Toggole from "./components/Toggole/toggole";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           onHandleChildData={handleChildData}
         />
         < Home /> 
+        <Toggole />
         <Footer />
       </div>
     </>
