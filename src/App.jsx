@@ -15,6 +15,10 @@ import FormHandelling from "./components/FormHandelling/form";
 import Child from "./components/Child/child";
 import Home from "./components/TODO/Home";
 import Toggole from "./components/Toggole/toggole";
+import UseEffect from "./components/Hook/SetUseEffect/UseEffectExample.jsx";
+// import DataFatch from "./components/Hook/DataFatch/dataFatch.jsx";
+import DataFatch from "./components/Hook/CustomHook/DataFatch.jsx";
+import ToasterMessage from "./components/Toastify/ToasterMessage.jsx";
 
 
 function App() {
@@ -40,6 +44,9 @@ function App() {
         />
         < Home /> 
         <Toggole />
+        <UseEffect />
+        {/* <DataFatch /> */}
+        <ToasterMessage />
         <Footer />
       </div>
     </>
