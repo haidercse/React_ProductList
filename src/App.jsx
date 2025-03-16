@@ -21,6 +21,7 @@ import DataFatch from "./components/Hook/CustomHook/DataFatch.jsx";
 import ToasterMessage from "./components/Toastify/ToasterMessage.jsx";
 import DynamicStyling from "./components/DynamicStyling/DynamicStyling.jsx";
 import Table_tab from "./components/Table_fragment/Table_tab.jsx";
+import Users from "./components/PropTypes/Users_types.jsx";
 
 
 function App() {
@@ -50,7 +51,8 @@ function App() {
         {/* <DataFatch /> */}
         <ToasterMessage />
         <DynamicStyling />
-        <Table_tab />
+        {/* <Table_tab /> */}
+        <Users />
         <Footer />
       </div>
     </>
