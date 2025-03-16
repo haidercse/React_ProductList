@@ -19,6 +19,7 @@ import UseEffect from "./components/Hook/SetUseEffect/UseEffectExample.jsx";
 // import DataFatch from "./components/Hook/DataFatch/dataFatch.jsx";
 import DataFatch from "./components/Hook/CustomHook/DataFatch.jsx";
 import ToasterMessage from "./components/Toastify/ToasterMessage.jsx";
+import DynamicStyling from "./components/DynamicStyling/DynamicStyling.jsx";
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
         <UseEffect />
         {/* <DataFatch /> */}
         <ToasterMessage />
+        <DynamicStyling />
         <Footer />
       </div>
     </>
