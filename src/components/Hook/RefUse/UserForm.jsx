@@ -7,9 +7,8 @@ const UserForm = () => {
     e.preventDefault();
     const userName = userNameRef.current.value;
     const userPassword = userPasswordRef.current.value;
-    console.log({userName,userPassword});
-  
-    
+    userNameRef.current.style.background = "green";
+    console.log({userName,userPassword}); 
   };
   return (
     <>
