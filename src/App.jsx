@@ -22,6 +22,7 @@ import ToasterMessage from "./components/Toastify/ToasterMessage.jsx";
 import DynamicStyling from "./components/DynamicStyling/DynamicStyling.jsx";
 import Table_tab from "./components/Table_fragment/Table_tab.jsx";
 import Users from "./components/PropTypes/Users_types.jsx";
+import UserForm from "./components/Hook/RefUse/UserForm.jsx";
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
         <DynamicStyling />
         {/* <Table_tab /> */}
         <Users />
+        <UserForm />
         <Footer />
       </div>
     </>
