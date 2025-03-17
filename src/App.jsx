@@ -24,6 +24,7 @@ import Table_tab from "./components/Table_fragment/Table_tab.jsx";
 import Users from "./components/PropTypes/Users_types.jsx";
 import UserForm from "./components/Hook/RefUse/UserForm.jsx";
 import UseReduce from "./components/Hook/UseReduce/UseReduce.jsx";
+import Component_One from "./components/Prop_driling/Component_One.jsx";
 
 
 function App() {
@@ -55,8 +56,9 @@ function App() {
         <DynamicStyling />
         <Table_tab />
         <Users />
-        <UserForm /> */}
-        <UseReduce />
+        <UserForm /> 
+        <UseReduce /> */}
+        <Component_One />
         <Footer />
       </div>
     </>
