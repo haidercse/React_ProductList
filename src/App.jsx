@@ -23,6 +23,7 @@ import DynamicStyling from "./components/DynamicStyling/DynamicStyling.jsx";
 import Table_tab from "./components/Table_fragment/Table_tab.jsx";
 import Users from "./components/PropTypes/Users_types.jsx";
 import UserForm from "./components/Hook/RefUse/UserForm.jsx";
+import UseReduce from "./components/Hook/UseReduce/UseReduce.jsx";
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
     <>
       <div>
         <Header />
-        <Product products={ProductsData} />
+        {/* <Product products={ProductsData} />
         <STATE />
         <ConditionalRendering />
         <EventHandellingByFunction />
@@ -49,12 +50,13 @@ function App() {
         < Home /> 
         <Toggole />
         <UseEffect />
-        {/* <DataFatch /> */}
+        <DataFatch />
         <ToasterMessage />
         <DynamicStyling />
-        {/* <Table_tab /> */}
+        <Table_tab />
         <Users />
-        <UserForm />
+        <UserForm /> */}
+        <UseReduce />
         <Footer />
       </div>
     </>
