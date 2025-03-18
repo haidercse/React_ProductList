@@ -21,10 +21,11 @@ import DataFatch from "./components/Hook/CustomHook/DataFatch.jsx";
 import ToasterMessage from "./components/Toastify/ToasterMessage.jsx";
 import DynamicStyling from "./components/DynamicStyling/DynamicStyling.jsx";
 import Table_tab from "./components/Table_fragment/Table_tab.jsx";
-import Users from "./components/PropTypes/Users_types.jsx";
+// import Users from "./components/PropTypes/Users_types.jsx";
 import UserForm from "./components/Hook/RefUse/UserForm.jsx";
 import UseReduce from "./components/Hook/UseReduce/UseReduce.jsx";
 import Component_One from "./components/Prop_driling/Component_One.jsx";
+import Users from "./components/UserManagement/Users.jsx";
 
 
 function App() {
@@ -57,8 +58,9 @@ function App() {
         <Table_tab />
         <Users />
         <UserForm /> 
-        <UseReduce /> */}
-        <Component_One />
+        <UseReduce /> 
+        <Component_One /> */}
+        <Users />
         <Footer />
       </div>
     </>
